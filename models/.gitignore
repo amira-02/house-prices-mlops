@@ -29,3 +29,5 @@ venv/
 # Logs and outputs
 *.log
 output/
+data/
+models/
