@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter / Kaggle
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+*.ods
+
+# Model files
+*.pkl
+*.joblib
+
+# Logs and outputs
+*.log
+output/
+data/
+models/
