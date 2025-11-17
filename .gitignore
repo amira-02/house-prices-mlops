@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VSCode / PyCharm / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# MyPy / Pyre
+.mypy_cache/
+.pyre/
+
+# Données brutes Kaggle (ne pas commiter les gros CSV si tu les télécharges via l'API)
+# → on garde train.csv car il est petit et nécessaire pour reproduire, mais on ignore le dossier input complet de Kaggle
+/kaggle/
+/kaggle/input/
+/kaggle/working/
+
+# Données traitées & sorties (toujours ignorer)
+data/processed/
+data/interim/
+reports/
+reports/figures/
+
+# Modèles entraînés (re-générables, souvent gros)
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Logs & cache ML
+*.log
+wandb/
+mlruns/
+lightning_logs/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.csv.bak
+/data
